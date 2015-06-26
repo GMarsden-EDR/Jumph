@@ -2,7 +2,7 @@
 <project name="Jumph" default="build">
  <property name="toolsdir" value="bin/" />
  <target name="build"
-         depends="prepare,copy-parameters,bower,composer,lint,phploc-ci,pdepend,phpmd-ci,phpcs-ci,phpcpd-ci,phpunit,phpdox,csslint"
+         depends="prepare,copy-parameters,bower,composer,lint,phploc-ci,pdepend,phpmd-ci,phpcs-ci,phpcpd-ci,phpunit,phpdox,csslint,jshint"
          description=""/>
 
  <target name="build-parallel"
@@ -199,6 +199,16 @@
    <exec executable="csslint" output="${basedir}/build/logs/csslint.xml">
      <arg line="--warnings=box-model,floats --errors=ids,important --format=lint-xml ${cssfiles.clean}" />
    </exec>
+ </target>
+ 
+ <target name="jshint" description="Run the JSHint tool on JavaScript files">
+	<fileset dir="${basedir}/src" id="jsfiles.raw">
+	  <include name="**/*.js" />
+	</fileset>
+	<pathconvert pathsep=" " property="jsfiles.clean" refid="jsfiles.raw" />
+	<exec executable="jshint" output="${basedir}/build/logs/jshint.xml">
+	  <arg line="--reporter=jslint ${jsfiles.clean}" />
+	</exec>
  </target>
  
 </project>
