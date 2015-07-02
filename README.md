@@ -6,6 +6,7 @@ Updated to test merging.
 Test 2.
 
 Updating master to see if Jenkins auto-builds
+Test 2.
 
 To see the **PHP** results from Jenkins, check the **master** branch.
 
