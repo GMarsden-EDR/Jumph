@@ -5,6 +5,8 @@ To read the articles, check: http://www.sitepoint.com/series/php-quality-assuran
 Updated to test merging.
 Test 2.
 
+Updating master to see if Jenkins auto-builds
+
 To see the **PHP** results from Jenkins, check the **master** branch.
 
 To see the **CSS** results from Jenkins, check the **csslint** branch.
