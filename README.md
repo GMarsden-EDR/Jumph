@@ -8,8 +8,7 @@ Test 2.
 Updating master to see if Jenkins auto-builds
 Test 2.
 Test 3.
-
-Testing merge before build
+Test 4.
 
 To see the **PHP** results from Jenkins, check the **master** branch.
 
