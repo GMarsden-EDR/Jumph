@@ -9,6 +9,8 @@ Updating master to see if Jenkins auto-builds
 Test 2.
 Test 3.
 
+Testing merge before build
+
 To see the **PHP** results from Jenkins, check the **master** branch.
 
 To see the **CSS** results from Jenkins, check the **csslint** branch.
