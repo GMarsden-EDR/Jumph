@@ -3,6 +3,7 @@ This repository is ment for the Jenkins articles on SitePoint. If you want to fo
 To read the articles, check: http://www.sitepoint.com/series/php-quality-assurance-with-jenkins/
 
 Updated to test merging.
+Test 2.
 
 To see the **PHP** results from Jenkins, check the **master** branch.
 
