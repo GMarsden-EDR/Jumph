@@ -11,8 +11,6 @@
 
 namespace Jumph\Bundle\EmailBundle\Manager;
 
-Hello EDR!
-
 use Doctrine\Common\Persistence\ObjectManager;
 use Doctrine\ORM\QueryBuilder;
 use Jumph\Bundle\AppBundle\Entity\FilterableManagerInterface;
