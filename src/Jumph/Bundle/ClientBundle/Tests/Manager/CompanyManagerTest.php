@@ -15,8 +15,6 @@ use Doctrine\Common\Persistence\ObjectManager;
 use Jumph\Bundle\ClientBundle\Entity\Company;
 use Jumph\Bundle\ClientBundle\Manager\CompanyManager;
 
-HI AZMIZAR
-
 class CompanyManagerTest extends \PHPUnit_Framework_TestCase
 {
 
