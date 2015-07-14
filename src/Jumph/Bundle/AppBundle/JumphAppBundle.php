@@ -13,6 +13,7 @@ namespace Jumph\Bundle\AppBundle;
 
 Inserting error
 Inserting error 2
+Inserting error 3
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
