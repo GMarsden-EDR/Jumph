@@ -11,8 +11,6 @@
 
 namespace Jumph\Bundle\AppBundle;
 
-Woops I made a horrible error here
-
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class JumphAppBundle extends Bundle
