@@ -11,10 +11,7 @@
 
 namespace Jumph\Bundle\AppBundle;
 
-use Symfony\Component\Httndle\Bundle;
-
-
-asdfhynuivnuqpc38y2nqtvp34yn01vy4
+use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class JumphAppBundle extends Bundle
 {
